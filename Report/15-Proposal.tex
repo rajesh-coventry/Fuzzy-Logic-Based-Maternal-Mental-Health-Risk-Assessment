@@ -1,0 +1,119 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=blue}
+
+% Make section titles visually bolder
+\makeatletter
+\def\section{\@startsection{section}{1}{0mm}
+  {-2ex plus -.5ex minus -.2ex}
+  {1ex plus .2ex}
+  {\normalfont\large\bfseries}}
+\makeatother
+
+\title{
+Maternal Mental Health Risk Assessment:\\
+A Fuzzy Logic-Based Machine Learning Approach for
+Postpartum Depression Screening in Nepal
+}
+
+\author{
+    \IEEEauthorblockN{Rajesh Kumar Dhimal}
+    \IEEEauthorblockA{
+        Student ID: 250072, CUID: 16542745\\
+        MSc. Data Science and Computational Intelligence\\
+        Softwarica College of IT and E-commerce, Coventry University\\
+        250072@softwarica.edu.np
+    }
+}
+
+\begin{document}
+\maketitle
+\vspace{-14pt}
+
+\begin{abstract}
+Postpartum depression (PPD) remains under-recognized in Nepal due to stigma, limited screening tools, and the lack of microdata. This proposal presents a compact framework integrating fuzzy logic and machine learning, supported by a rigorously constructed synthetic population. The goal is to provide an interpretable, context-aware screening method for early PPD risk detection in resource-limited settings.
+\end{abstract}
+
+\vspace{6pt}  % adjust value (6pt, 8pt, 10pt...)
+\begin{IEEEkeywords}
+Fuzzy Logic, Maternal Mental Health, Postpartum Depression, Machine Learning, Synthetic Data, Nepal
+\end{IEEEkeywords}
+
+\vspace{-6pt}
+\section{Introduction}
+Maternal mental health issues, especially PPD, pose significant public health challenges in Nepal. Traditional scoring methods struggle to represent the uncertainty and overlapping risk patterns inherent in mental health states. A fuzzy logic-based model, refined using machine learning, offers a flexible and explainable alternative suited to Nepal’s socio-cultural diversity.
+
+\vspace{-4pt}
+\section{Aims and Objectives}
+\begin{itemize}
+    \item Develop a fuzzy logic screening model for postpartum depression risk.
+    \item Use machine learning to benchmark, refine, and support fuzzy inference.
+    \item Create a validated synthetic maternal health dataset grounded in national evidence.
+\end{itemize}
+
+\vspace{-6pt}
+\section{Data Synthesis}
+A synthetic dataset was generated after an extensive review of statistical metrics, distributions, and relationships observed in:
+\begin{itemize}
+    \item Nepal Demographic and Health Survey (NDHS) 2022,
+    \item Nepal Population Census 2021,
+    \item WHO, “Maternal Mental Health: Evidence and Practice,” 2021.
+\end{itemize}
+
+A complete simulated population representing Nepal’s mother-age 
+demographic was first created using conditional, evidence-based rules. 
+This population data was passed through the synthetic data quality tests 
+(e.g, distributional similarity, cross-tab consistency, correlation 
+preservation). A final working sample of 20,000 records was drawn 
+using simple random sampling to ensure 
+representativeness and reliability.
+
+\vspace{-6pt}
+\section{Methodology}
+\begin{itemize}
+    \item \textbf{Fuzzy Feature Engineering:} Construction of fuzzy-enhanced variables (support level, stress intensity, sleep quality, household strain, etc.) using membership functions that capture gradual transitions rather than strict thresholds.
+    \item \textbf{Fuzzy Logic Engine:} Expert-informed fuzzy rules infer PPD risk levels based on socio-demographic, psychosocial, and maternal health indicators.
+    \item \textbf{Machine Learning Model Selection:}
+    \begin{itemize}
+        \item \textbf{Primary Algorithm:} Fuzzy K-Nearest Neighbors (Fuzzy KNN) for smooth decision boundaries and robustness to overlapping risk patterns.
+        \item \textbf{Secondary Algorithms:}  
+              (1) Fuzzy Decision Tree,  
+              (2) Fuzzy C-Means Clustering + Classification,  
+              (3) Fuzzy Naive Bayes.
+    \end{itemize}
+    The best-performing model will be selected based on accuracy, interpretability, and consistency with expected PPD prevalence patterns.
+    \item \textbf{Validation:} Predicted risk distributions compared with published PPD prevalence ranges and evaluated across provinces and demographic strata.
+\end{itemize}
+
+\vspace{-6pt}
+\section{Expected Outcomes}
+\begin{itemize}
+    \item A Nepal-specific fuzzy logic PPD screening tool.
+    \item Machine learning insights into key maternal mental health predictors.
+    \item A validated, documented synthetic dataset for future research.
+\end{itemize}
+
+\vspace{-6pt}
+\section{Ethical Considerations}
+No real individuals’ data are used; all records are fully synthetic and derived from aggregate public sources, ensuring zero privacy risk.
+
+\vspace{-4pt}
+\section{Conclusion}
+Integrating fuzzy logic, machine learning, and synthetic epidemiological modeling provides a practical, interpretable, and scalable pathway for early maternal mental health risk screening in Nepal.
+
+%\bibliographystyle{IEEEtran}
+%\%begin{thebibliography}{1}
+%\bibitem{NDHS2022}
+%Nepal Demographic and Health Survey 2022.
+%\bibitem{Census2021}
+%Nepal Population Census 2021.
+%\bibitem{PPDMeta}
+%Bista B., et al., ``Postpartum depression in Nepal,'' Asian J. Psychiatry, 2022.
+%\bibitem{WHO2021}
+%WHO, ``Maternal Mental Health: Evidence and Practice,'' 2021.
+%\end{thebibliography}
+
+\end{document}
