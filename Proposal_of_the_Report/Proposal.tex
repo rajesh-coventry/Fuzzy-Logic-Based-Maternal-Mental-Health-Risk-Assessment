@@ -32,14 +32,14 @@ Postpartum Depression Screening in Nepal
 \begin{document}
 \maketitle
 \vspace{-14pt}
-
+ 
 \begin{abstract}
-Postpartum depression (PPD) remains under-recognized in Nepal due to stigma, limited screening tools, and the lack of microdata. This proposal presents a compact framework integrating fuzzy logic and machine learning, supported by a rigorously constructed synthetic population. The goal is to provide an interpretable, context-aware screening method for early PPD risk detection in resource-limited settings.
+Postpartum depression (PPD) remains under-recognized in Nepal due to stigma, limited screening tools and the lack of microdata. This proposal presents a compact framework integrating fuzzy logic and machine learning, supported by a rigorously constructed synthetic population. The goal is to provide an interpretable, context-aware screening method for early PPD risk detection in resource-limited settings.
 \end{abstract}
 
 \vspace{6pt}  % adjust value (6pt, 8pt, 10pt...)
 \begin{IEEEkeywords}
-Fuzzy Logic, Maternal Mental Health, Postpartum Depression, Machine Learning, Synthetic Data, Nepal
+Fuzzy Logic, Machine Learning, Random Forest, Differential Evolution, Maternal Mental Health, Postpartum Depression
 \end{IEEEkeywords}
 
 \vspace{-6pt}
@@ -49,11 +49,11 @@ Maternal mental health issues, especially PPD, pose significant public health ch
 \vspace{-4pt}
 \section{Aims and Objectives}
 \begin{itemize}
+    \item Create a validated synthetic maternal health dataset grounded in national evidence.
     \item Develop a fuzzy logic screening model for postpartum depression risk.
     \item Use machine learning to benchmark, refine, and support fuzzy inference.
-    \item Create a validated synthetic maternal health dataset grounded in national evidence.
 \end{itemize}
-
+  
 \vspace{-6pt}
 \section{Data Synthesis}
 A synthetic dataset was generated after an extensive review of statistical metrics, distributions, and relationships observed in:
@@ -62,7 +62,7 @@ A synthetic dataset was generated after an extensive review of statistical metri
     \item Nepal Population Census 2021,
     \item WHO, “Maternal Mental Health: Evidence and Practice,” 2021.
 \end{itemize}
-
+ 
 A complete simulated population representing Nepal’s mother-age 
 demographic was first created using conditional, evidence-based rules. 
 This population data was passed through the synthetic data quality tests 
@@ -70,23 +70,19 @@ This population data was passed through the synthetic data quality tests
 preservation). A final working sample of 20,000 records was drawn 
 using simple random sampling to ensure 
 representativeness and reliability.
-
+  
 \vspace{-6pt}
 \section{Methodology}
-\begin{itemize}
-    \item \textbf{Fuzzy Feature Engineering:} Construction of fuzzy-enhanced variables (support level, stress intensity, sleep quality, household strain, etc.) using membership functions that capture gradual transitions rather than strict thresholds.
+\begin{itemize}  
+    \item \textbf{Fuzzy Feature Engineering:} Construction of fuzzy-enhanced variables (support level, stress intensity, sleep quality, etc.) using membership functions that capture gradual transitions rather than strict thresholds.
     \item \textbf{Fuzzy Logic Engine:} Expert-informed fuzzy rules infer PPD risk levels based on socio-demographic, psychosocial, and maternal health indicators.
-    \item \textbf{Machine Learning Model Selection:}
+    \item \textbf{Machine Learning and Model Selection:}
     \begin{itemize}
-        \item \textbf{Primary Algorithm:} Fuzzy K-Nearest Neighbors (Fuzzy KNN) for smooth decision boundaries and robustness to overlapping risk patterns.
-        \item \textbf{Secondary Algorithms:}  
-              (1) Fuzzy Decision Tree,  
-              (2) Fuzzy C-Means Clustering + Classification,  
-              (3) Fuzzy Naive Bayes.
+        \item \textbf{Primary Algorithm:} Random Forest, leveraging ensemble decision-making to handle complex, non-linear interactions among maternal health risk factors while maintaining interpretability through feature importance rankings.
+        \item \textbf{Optimization Strategy:} Differential Evolution (DE) algorithm employed to optimize fuzzy parameters (membership function shapes, spread values, and rule weights), ensuring robust convergence to global optima in the fuzzy inference system.
     \end{itemize}
-    The best-performing model will be selected based on accuracy, interpretability, and consistency with expected PPD prevalence patterns.
-    \item \textbf{Validation:} Predicted risk distributions compared with published PPD prevalence ranges and evaluated across provinces and demographic strata.
-\end{itemize}
+
+ 
 
 \vspace{-6pt}
 \section{Expected Outcomes}

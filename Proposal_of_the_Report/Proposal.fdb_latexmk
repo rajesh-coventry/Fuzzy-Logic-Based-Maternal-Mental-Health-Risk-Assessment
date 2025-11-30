@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1763602665.34556 "c:/Users/MyMachine/Desktop/CML-Report/Report/15-Proposal.tex" "15-Proposal.pdf" "15-Proposal" 1763602666.31932 0
-  "15-Proposal.aux" 1763602666 953 24bff9753079618cc9575fcbf32c555d "pdflatex"
-  "15-Proposal.out" 1763602666 841 7b763272c2f174f0fc9eccc093f2dbba "pdflatex"
-  "15-Proposal.tex" 1763602664 5441 632c63bbcfe64be82727829bfe0856bb ""
+["pdflatex"] 1764489633.78449 "g:/My Drive/Data_Science/Fuzzy-Logic-Based-Maternal-Mental-Health-Risk-Assessment/Proposal_of_the_Report/Proposal.tex" "Proposal.pdf" "Proposal" 1764489635.08107 2
+  "Proposal.aux" 1764489634 953 24bff9753079618cc9575fcbf32c555d "pdflatex"
+  "Proposal.out" 1764489634 841 7b763272c2f174f0fc9eccc093f2dbba "pdflatex"
+  "Proposal.tex" 1764489607 5295 faf109daf733c9b52221b22dc3807b53 ""
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc" 1755812694 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1755812710 2172 fd0c924230362ff848a33632ed45dc23 ""
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm" 1755812710 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -67,10 +67,11 @@
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1763557423 381999 1daa15cda0a87b23328c41b8f1881bf3 ""
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1763557477 2286090 7ffd0133499328ed54e929f8a7fb4b4e ""
   "c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf.cnf" 1755812672 903 164c5b127cd0d6dc91abad2f62421ea2 ""
-  "c:/Users/MyMachine/Desktop/CML-Report/Report/15-Proposal.tex" 1763602664 5441 632c63bbcfe64be82727829bfe0856bb ""
+  "g:/My Drive/Data_Science/Fuzzy-Logic-Based-Maternal-Mental-Health-Risk-Assessment/Proposal_of_the_Report/Proposal.tex" 1764489607 5295 faf109daf733c9b52221b22dc3807b53 ""
   (generated)
-  "15-Proposal.aux"
-  "15-Proposal.log"
-  "15-Proposal.out"
-  "15-Proposal.pdf"
+  "Proposal.aux"
+  "Proposal.log"
+  "Proposal.out"
+  "Proposal.pdf"
   (rewritten before read)
+  "Proposal.aux"

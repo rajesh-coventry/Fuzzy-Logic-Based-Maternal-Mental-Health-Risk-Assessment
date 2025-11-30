@@ -1,9 +1,9 @@
-PWD c:/Users/MyMachine/Desktop/CML-Report/Report
+PWD g:/My Drive/Data_Science/Fuzzy-Logic-Based-Maternal-Mental-Health-Risk-Assessment/Proposal_of_the_Report
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf.cnf
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/web2c/texmf.cnf
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/MyMachine/Desktop/CML-Report/Report/15-Proposal.tex
-OUTPUT 15-Proposal.log
+INPUT g:/My Drive/Data_Science/Fuzzy-Logic-Based-Maternal-Mental-Health-Risk-Assessment/Proposal_of_the_Report/Proposal.tex
+OUTPUT Proposal.log
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ptm.fd
@@ -126,10 +126,7 @@ INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniqueco
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./15-Proposal.aux
-INPUT ./15-Proposal.aux
-INPUT 15-Proposal.aux
-OUTPUT 15-Proposal.aux
+OUTPUT Proposal.aux
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -146,14 +143,8 @@ INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-c
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT ./15-Proposal.out
-INPUT ./15-Proposal.out
-INPUT 15-Proposal.out
-INPUT 15-Proposal.out
-OUTPUT 15-Proposal.pdf
-INPUT ./15-Proposal.out
-INPUT ./15-Proposal.out
-OUTPUT 15-Proposal.out
+OUTPUT Proposal.out
+OUTPUT Proposal.pdf
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
@@ -172,9 +163,9 @@ INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/vf/adobe/times
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT 15-Proposal.aux
-INPUT ./15-Proposal.out
-INPUT ./15-Proposal.out
+INPUT Proposal.aux
+INPUT ./Proposal.out
+INPUT ./Proposal.out
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
 INPUT c:/Users/MyMachine/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb
