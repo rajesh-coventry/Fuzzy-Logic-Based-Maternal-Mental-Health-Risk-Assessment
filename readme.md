@@ -18,7 +18,6 @@ The system is designed to handle the uncertainty inherent in medical data and is
 | `Data_Synthesis/` | Notebooks for generating synthetic maternal health data. |
 | `Feature_Engineering/` | Scripts for data preprocessing, crisp encoding, and feature fuzzification. |
 | `Model_Development_and_Training/` | Random Forest implementation and Differential Evolution optimization algorithms. |
-| `Report/` | LaTeX source files and figures for the project's research report. |
 
 ## 🚀 Getting Started
 
